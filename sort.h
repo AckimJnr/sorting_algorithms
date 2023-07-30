@@ -21,4 +21,9 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void swap(int *, int *);
+int lamuto_partition(int *array, size_t low, size_t high);
+void merge_sort(int *array, size_t size);
+void top_down_split_merge(int *B, size_t iBegin, size_t iEnd, int *A);
+void top_down_merge(int *, size_t, size_t, size_t, int *);
+void copy_array(int *A, size_t iBegin, size_t iEnd, int *B);
 #endif
